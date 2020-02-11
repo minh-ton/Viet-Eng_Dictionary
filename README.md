@@ -1,5 +1,4 @@
 # [Vietnamese - English Dictionary for macOS](https://github.com/Minh-Ton/Vietnamese-English_Dictionary_for_macOS)
-## - Minh Ton - 
 
 ### Download latest version: [Download now](https://github.com/Minh-Ton/Vietnamese-English_Dictionary_for_macOS/releases/download/v1.0/Viet-Eng.Dict.zip)
 
