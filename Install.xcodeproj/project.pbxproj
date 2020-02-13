@@ -76,7 +76,16 @@
 				0156403023F2EE000068D443 /* Install */,
 				0156402D23F2EE000068D443 /* Frameworks */,
 				0156402C23F2EE000068D443 /* Products */,
-				015640A723F443BA0068D443 /* Images */,
+				0156407B23F2F0AB0068D443 /* Dictionary.icns */,
+				0156407D23F2F12A0068D443 /* Installer 2.icns */,
+				0156408123F2F5850068D443 /* Installer 1.png */,
+				0156408323F2FB780068D443 /* arrowbutton.tiff */,
+				0156408523F2FB8F0068D443 /* cancel.tiff */,
+				0156408723F2FB9F0068D443 /* restart.tiff */,
+				0156409023F3C8110068D443 /* Step1.png */,
+				0156409223F3CE0E0068D443 /* Step2.png */,
+				0156409423F3CE8E0068D443 /* Step3.png */,
+				0156409623F3CFAC0068D443 /* Step4.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,23 +120,6 @@
 				0156403923F2EE020068D443 /* main.m */,
 			);
 			path = Install;
-			sourceTree = "<group>";
-		};
-		015640A723F443BA0068D443 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				0156407B23F2F0AB0068D443 /* Dictionary.icns */,
-				0156407D23F2F12A0068D443 /* Installer 2.icns */,
-				0156408123F2F5850068D443 /* Installer 1.png */,
-				0156408323F2FB780068D443 /* arrowbutton.tiff */,
-				0156408523F2FB8F0068D443 /* cancel.tiff */,
-				0156408723F2FB9F0068D443 /* restart.tiff */,
-				0156409023F3C8110068D443 /* Step1.png */,
-				0156409223F3CE0E0068D443 /* Step2.png */,
-				0156409423F3CE8E0068D443 /* Step3.png */,
-				0156409623F3CFAC0068D443 /* Step4.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
