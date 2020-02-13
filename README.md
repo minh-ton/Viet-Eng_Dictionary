@@ -10,7 +10,7 @@
 - Beautiful and eye-catching design/illustrations
 
 ## What are the differences between version 1.0 and version 2.0?
-- Version 1.0 is designed for a fast installation. And version 1.0 is also very small in size. 
+- Version 1.0 is designed for a fast installation. And version 1.0 is also smaller in size. 
 - Version 2.0 provides a GUI (Graphical User Interface) for people who is not too tech-savvy. It also make sure that you can use your Dictionary by showing steps on how to get your Dictionary enabled.
 
 ###### Look at some screenshots below to distinguish between version 1.0 and 2.0.
