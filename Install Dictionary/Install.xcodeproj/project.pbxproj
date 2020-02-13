@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0156402F23F2EE000068D443 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156402E23F2EE000068D443 /* AppleScriptObjC.framework */; };
+		0156403223F2EE000068D443 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 0156403123F2EE000068D443 /* AppDelegate.applescript */; };
+		0156403423F2EE020068D443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0156403323F2EE020068D443 /* Assets.xcassets */; };
+		0156403723F2EE020068D443 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0156403523F2EE020068D443 /* MainMenu.xib */; };
+		0156403A23F2EE020068D443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156403923F2EE020068D443 /* main.m */; };
+		0156407C23F2F0AB0068D443 /* Dictionary.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0156407B23F2F0AB0068D443 /* Dictionary.icns */; };
+		0156407E23F2F12B0068D443 /* Installer 2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0156407D23F2F12A0068D443 /* Installer 2.icns */; };
+		0156408223F2F5850068D443 /* Installer 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0156408123F2F5850068D443 /* Installer 1.png */; };
+		0156408423F2FB780068D443 /* arrowbutton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0156408323F2FB780068D443 /* arrowbutton.tiff */; };
+		0156408623F2FB8F0068D443 /* cancel.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0156408523F2FB8F0068D443 /* cancel.tiff */; };
+		0156408823F2FB9F0068D443 /* restart.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0156408723F2FB9F0068D443 /* restart.tiff */; };
+		0156409123F3C8110068D443 /* Step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0156409023F3C8110068D443 /* Step1.png */; };
+		0156409323F3CE0F0068D443 /* Step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0156409223F3CE0E0068D443 /* Step2.png */; };
+		0156409523F3CE8E0068D443 /* Step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0156409423F3CE8E0068D443 /* Step3.png */; };
+		0156409723F3CFAD0068D443 /* Step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0156409623F3CFAC0068D443 /* Step4.png */; };
+		0156409D23F42BFB0068D443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156409C23F42BFB0068D443 /* Cocoa.framework */; };
+		0156409F23F42C840068D443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156409E23F42C840068D443 /* Foundation.framework */; };
+		015640A123F42C8E0068D443 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015640A023F42C8E0068D443 /* AppKit.framework */; };
+		015640A323F42CA70068D443 /* Vietnamese - English.dictionary in Frameworks */ = {isa = PBXBuildFile; fileRef = 015640A223F42CA70068D443 /* Vietnamese - English.dictionary */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0156402B23F2EE000068D443 /* Install.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Install.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0156402E23F2EE000068D443 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		0156403123F2EE000068D443 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		0156403323F2EE020068D443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0156403623F2EE020068D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0156403823F2EE020068D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0156403923F2EE020068D443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0156407B23F2F0AB0068D443 /* Dictionary.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dictionary.icns; sourceTree = "<group>"; };
+		0156407D23F2F12A0068D443 /* Installer 2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Installer 2.icns"; sourceTree = "<group>"; };
+		0156408123F2F5850068D443 /* Installer 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Installer 1.png"; sourceTree = "<group>"; };
+		0156408323F2FB780068D443 /* arrowbutton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbutton.tiff; sourceTree = "<group>"; };
+		0156408523F2FB8F0068D443 /* cancel.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cancel.tiff; sourceTree = "<group>"; };
+		0156408723F2FB9F0068D443 /* restart.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restart.tiff; sourceTree = "<group>"; };
+		0156408923F3023D0068D443 /* Install.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Install.entitlements; sourceTree = "<group>"; };
+		0156409023F3C8110068D443 /* Step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step1.png; sourceTree = "<group>"; };
+		0156409223F3CE0E0068D443 /* Step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step2.png; sourceTree = "<group>"; };
+		0156409423F3CE8E0068D443 /* Step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step3.png; sourceTree = "<group>"; };
+		0156409623F3CFAC0068D443 /* Step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step4.png; sourceTree = "<group>"; };
+		0156409C23F42BFB0068D443 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0156409E23F42C840068D443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		015640A023F42C8E0068D443 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		015640A223F42CA70068D443 /* Vietnamese - English.dictionary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Vietnamese - English.dictionary"; path = "../../../Library/Dictionaries/Vietnamese - English.dictionary"; sourceTree = "<group>"; };
+		0164367223F444D4001FF293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0156402823F2EE000068D443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015640A323F42CA70068D443 /* Vietnamese - English.dictionary in Frameworks */,
+				015640A123F42C8E0068D443 /* AppKit.framework in Frameworks */,
+				0156409F23F42C840068D443 /* Foundation.framework in Frameworks */,
+				0156409D23F42BFB0068D443 /* Cocoa.framework in Frameworks */,
+				0156402F23F2EE000068D443 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0156402223F2EE000068D443 = {
+			isa = PBXGroup;
+			children = (
+				0156403023F2EE000068D443 /* Install */,
+				0156402D23F2EE000068D443 /* Frameworks */,
+				0156402C23F2EE000068D443 /* Products */,
+				0156407B23F2F0AB0068D443 /* Dictionary.icns */,
+				0156407D23F2F12A0068D443 /* Installer 2.icns */,
+				0156408123F2F5850068D443 /* Installer 1.png */,
+				0156408323F2FB780068D443 /* arrowbutton.tiff */,
+				0156408523F2FB8F0068D443 /* cancel.tiff */,
+				0156408723F2FB9F0068D443 /* restart.tiff */,
+				0156409023F3C8110068D443 /* Step1.png */,
+				0156409223F3CE0E0068D443 /* Step2.png */,
+				0156409423F3CE8E0068D443 /* Step3.png */,
+				0156409623F3CFAC0068D443 /* Step4.png */,
+			);
+			sourceTree = "<group>";
+		};
+		0156402C23F2EE000068D443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0156402B23F2EE000068D443 /* Install.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0156402D23F2EE000068D443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015640A223F42CA70068D443 /* Vietnamese - English.dictionary */,
+				015640A023F42C8E0068D443 /* AppKit.framework */,
+				0156409E23F42C840068D443 /* Foundation.framework */,
+				0156409C23F42BFB0068D443 /* Cocoa.framework */,
+				0156402E23F2EE000068D443 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0156403023F2EE000068D443 /* Install */ = {
+			isa = PBXGroup;
+			children = (
+				0156408923F3023D0068D443 /* Install.entitlements */,
+				0156403123F2EE000068D443 /* AppDelegate.applescript */,
+				0156403523F2EE020068D443 /* MainMenu.xib */,
+				0156403323F2EE020068D443 /* Assets.xcassets */,
+				0156403823F2EE020068D443 /* Info.plist */,
+				0156403923F2EE020068D443 /* main.m */,
+			);
+			path = Install;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0156402A23F2EE000068D443 /* Install */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0156403D23F2EE020068D443 /* Build configuration list for PBXNativeTarget "Install" */;
+			buildPhases = (
+				0156402723F2EE000068D443 /* Sources */,
+				0156402823F2EE000068D443 /* Frameworks */,
+				0156402923F2EE000068D443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Install;
+			productName = Install;
+			productReference = 0156402B23F2EE000068D443 /* Install.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0156402323F2EE000068D443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Ford;
+				TargetAttributes = {
+					0156402A23F2EE000068D443 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0156402623F2EE000068D443 /* Build configuration list for PBXProject "Install" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0156402223F2EE000068D443;
+			productRefGroup = 0156402C23F2EE000068D443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0156402A23F2EE000068D443 /* Install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0156402923F2EE000068D443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156408823F2FB9F0068D443 /* restart.tiff in Resources */,
+				0156403423F2EE020068D443 /* Assets.xcassets in Resources */,
+				0156409723F3CFAD0068D443 /* Step4.png in Resources */,
+				0156407C23F2F0AB0068D443 /* Dictionary.icns in Resources */,
+				0156403723F2EE020068D443 /* MainMenu.xib in Resources */,
+				0156409123F3C8110068D443 /* Step1.png in Resources */,
+				0156408223F2F5850068D443 /* Installer 1.png in Resources */,
+				0156409323F3CE0F0068D443 /* Step2.png in Resources */,
+				0156409523F3CE8E0068D443 /* Step3.png in Resources */,
+				0156408423F2FB780068D443 /* arrowbutton.tiff in Resources */,
+				0156408623F2FB8F0068D443 /* cancel.tiff in Resources */,
+				0156407E23F2F12B0068D443 /* Installer 2.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0156402723F2EE000068D443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156403A23F2EE020068D443 /* main.m in Sources */,
+				0156403223F2EE000068D443 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0156403523F2EE020068D443 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0156403623F2EE020068D443 /* Base */,
+				0164367223F444D4001FF293 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0156403B23F2EE020068D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0156403C23F2EE020068D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0156403E23F2EE020068D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Install/Install.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NAR5D6HWAD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Install/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fordApps.InstallDict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		0156403F23F2EE020068D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Install/Install.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NAR5D6HWAD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Install/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fordApps.InstallDict;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0156402623F2EE000068D443 /* Build configuration list for PBXProject "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156403B23F2EE020068D443 /* Debug */,
+				0156403C23F2EE020068D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0156403D23F2EE020068D443 /* Build configuration list for PBXNativeTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156403E23F2EE020068D443 /* Debug */,
+				0156403F23F2EE020068D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0156402323F2EE000068D443 /* Project object */;
+}
