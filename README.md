@@ -2,7 +2,7 @@
 
 ### Download version 1.0: [Download now](https://github.com/Minh-Ton/Vietnamese-English_Dictionary_for_macOS/releases/download/v1.0/Viet-Eng.Dict.zip)
 ### Download version 2.0: [Download now](https://github.com/Minh-Ton/Viet-Eng_Dictionary/releases/download/v2.0/VietEngDictionary.zip) (Recommended)
-#### Cannot open the installer? [View guide] 
+#### Cannot open the installer? [View guide](https://github.com/Minh-Ton/Viet-Eng_Dictionary#cannot-open-the-installer) 
 
 ## Features:
 - Supports looking up & translating idioms
