@@ -31,4 +31,4 @@
 
 ![Optional Text](https://github.com/Minh-Ton/Viet-Eng_Dictionary/raw/resources/Screenshots/Screen%20Shot%202020-02-13%20at%208.44.43%20AM.png)
 
-### Step 2: A dialog will appear. Select Open again. 
+### Step 2: A dialog will appear. Select Open again.  
